@@ -1,0 +1,45 @@
+<html lang="en">
+   <head>
+   	<title>notable quotes</title>
+   	<script src="quote.js"></script>
+   	<style>
+   		body {
+   			font-family: Arial, Helvetica, sans-serif;
+   		}
+   		#quotes {
+   			background-color: #F1EAFF;
+   			padding-top: 10px;
+   			padding-bottom: 10px;
+   		}
+   	</style>
+   </head>
+	<body>
+		<h3>notable quotes</h3>
+
+		<p>
+			<label for="topicSelection">select a topic:</label>
+			<select id="topicSelection">
+            <option>choose one</option>
+				<option>love</option>
+				<option>motivational</option>
+				<option>wisdom</option>
+				<option>humor</option>
+			</select>
+		</p>
+		<p>
+			<label for="countSelection">how many quotes?</label>
+			<select id="countSelection">
+				<option>1</option>
+				<option>2</option>
+				<option selected>3</option>
+				<option>4</option>
+				<option>5</option>
+			</select>
+		</p>
+		<p>
+		   <button id="fetchQuotesBtn">fetch quotes</button>
+	</p>
+		<div id="quotes">
+		</div>
+	</body>
+</html>
